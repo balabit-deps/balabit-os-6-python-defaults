@@ -1,3 +1,13 @@
+python-defaults (2.7.12-1~16.04) xenial-proposed; urgency=medium
+
+  * SRU.
+  * Bump version to 2.7.12. LP: #1591895.
+  * pycompile, pyclean, pyversions: Use python2 as the shebang to guard
+    against people fiddling around with the python symlink or having a
+    python3 installed as python in /usr/local. LP: #1715062.
+
+ -- Matthias Klose <doko@ubuntu.com>  Thu, 23 Nov 2017 12:47:42 +0100
+
 python-defaults (2.7.11-1) unstable; urgency=medium
 
   * Bump version to 2.7.11.
